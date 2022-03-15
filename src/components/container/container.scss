@@ -1,0 +1,13 @@
+.container {
+  height: 90vh;
+  width: 100vw;
+  display: grid;
+  display: grid;
+  grid-template-areas:
+    "aside main main main"
+    "aside main main main"
+    "footer footer footer footer";
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-columns: 0.76fr repeat(3, 1fr);
+  overflow: hidden;
+}
